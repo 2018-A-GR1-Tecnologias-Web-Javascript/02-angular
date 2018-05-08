@@ -1,0 +1,12 @@
+
+
+.sa-titulo{
+  /* propiedad:valorDeLaPropiedad;*/
+  color: rgba(255, 136, 40, 0.07);
+  background-color: #001d76;
+  border-style: solid;
+  border-color: rgba(0, 42, 199, 0.6);
+  border-width: 4px;
+}
+
+

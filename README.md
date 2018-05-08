@@ -5,3 +5,7 @@
 ```
 > ng new NombreDeLaAplicacion
 ```
+
+```
+> ng serve
+```

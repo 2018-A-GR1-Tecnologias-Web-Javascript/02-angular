@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent
-  ],
+  ], // Definir todos los componentes a usarse
   imports: [
     BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  ], //  Definimos todos los Modulos
+  providers: [], // Los Servicios
+  bootstrap: [AppComponent] // Componente Principal
 })
+// @ALGO() // Decorator
+
+
+
 export class AppModule { }
