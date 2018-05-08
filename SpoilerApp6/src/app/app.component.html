@@ -1,9 +1,12 @@
-<h1 class="sa-titulo">Hola amigos</h1>
+<div [hidden]="false">
+  <h1 [class]="nombreClase">Hola amigos</h1>
+  <p>Nombre: {{nombre}}</p>
+  <p>Apellido: {{apellido}}</p>
+  <p>Edad: {{edad}}</p>
+  <p>Sueldo: {{sueldo | currency}}</p>
+  <p>Fecha nacimiento: {{fechaNacimiento | date:'yyyy/MM/dd'}}</p>
 
-<p>Nombre: {{nombre}}</p>
-<p>Apellido: {{apellido}}</p>
-<p>Edad: {{edad}}</p>
-<p>Sueldo: {{sueldo | currency}}</p>
-<p>Fecha nacimiento: {{fechaNacimiento | date:'yyyy/MM/dd'}}</p>
+  <button (click)="cambiarClaseDeTitulo() "> {{nombreBoton}} </button>
+</div>
 
 

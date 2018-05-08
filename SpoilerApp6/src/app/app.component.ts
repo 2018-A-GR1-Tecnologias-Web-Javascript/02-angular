@@ -10,7 +10,7 @@ export class AppComponent {
   nombre = 'Adrian';
   apellido = 'Eguez';
   edad = 28;
-  sueldo = 1;
+  sueldo = 3411234.13;
   fechaNacimiento = new Date('1989-06-10');
   nombreBoton = 'Cambiar color';
   nombreClase = 'sa-titulo';
