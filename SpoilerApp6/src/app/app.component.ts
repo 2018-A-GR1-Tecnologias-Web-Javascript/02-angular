@@ -23,6 +23,10 @@ export class AppComponent {
       this.nombreClase = 'sa-titulo';
     }
   }
+
+  aplicarClase(valorInput: string) {
+    this.nombreClase = valorInput;
+  }
 }
 
 
