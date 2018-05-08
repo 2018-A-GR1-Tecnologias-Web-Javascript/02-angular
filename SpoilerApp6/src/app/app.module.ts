@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent
   ], // Definir todos los componentes a usarse
+     // Definin todos los pipes -> transforman datos
   imports: [
     BrowserModule
   ], //  Definimos todos los Modulos
