@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-pelicula-banner',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PeliculaBannerComponent implements OnInit {
 
-  constructor() { }
+  urlImagen = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_FOh_xn19xgXf_Uq5OK3WWzAmoVoZLHCO2vjFd4LKaxijU59eg';
+  descripcionImagen = 'Imagen de la pelicula Tomb Raider';
+  nombrePelicula = 'Tomb Raider';
+  descripcionPelicula = 'Alicia vikander,Walton Googins';
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
