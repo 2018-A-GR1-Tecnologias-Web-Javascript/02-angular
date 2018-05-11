@@ -9,3 +9,11 @@
 ```
 > ng serve
 ```
+
+```
+> ng lint
+```
+
+```
+> ng build
+```
