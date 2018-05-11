@@ -1,6 +1,26 @@
+
+
+<h2 [class]="clase">Two way data binding</h2>
+<ul>
+  <li> clase <-> template [(ngModel)]</li>
+</ul>
+<p>Clase: {{clase}}</p>
+<input type="text"
+       id="clase"
+       name="clase"
+       [(ngModel)]="clase">
+
+<h2>One way data binding</h2>
+<ul>
+  <li>Clase al template -> [class]</li>
+  <li>Template a la clase -> (click)</li>
+</ul>
+
 <div [hidden]="false">
-  <h1 id="titulo" [class]="nombreClase">Hola amigos</h1>
-  <input type="text" #textoInput>
+  <h1 [id]="nombreClase"
+      [class]="nombreClase"
+  >Hola amigos</h1>
+  <input type="text" #textoInput >
   <div>
     <p>Nombre: {{nombre}}</p>
     <p>Apellido: {{apellido}}</p>
@@ -8,7 +28,8 @@
     <p>Sueldo: {{sueldo | currency}}</p>
     <p>Fecha nacimiento: {{fechaNacimiento | date:'yyyy/MM/dd'}}</p>
 
-    <button (click)="cambiarClaseDeTitulo()">
+    <button (blur)="cambiarClaseDeTitulo()"
+            (click)="cambiarClaseDeTitulo()">
       {{nombreBoton}}
     </button>
   </div>
