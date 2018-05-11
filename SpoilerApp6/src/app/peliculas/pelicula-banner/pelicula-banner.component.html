@@ -1,6 +1,12 @@
 <div class="sa-fondo-pelicula-banner sa-color-letras-pelicula-banner">
   <img [src]="urlImagen" [alt]="descripcionImagen">
-  <p class="sa-fondo-estado">{{estado}}</p>
+
+
+  <p [class]="'sa-fondo-estado ' + claseEstreno">{{textoEstreno}}</p>
+
+
+
+
   <h1>{{nombrePelicula}}</h1>
   <p>{{descripcionPelicula}}</p>
 </div>

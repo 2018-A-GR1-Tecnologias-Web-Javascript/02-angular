@@ -5,3 +5,17 @@
 .sa-color-letras-pelicula-banner {
   color: #fff
 }
+
+.sa-fondo-estado{
+  max-width: 120px;
+  text-align: center;
+}
+
+.sa-color-estado-amarillo{
+  background-color: #fabb00;
+}
+
+.sa-color-estado-rosado{
+  background-color: #e3003e;
+}
+
