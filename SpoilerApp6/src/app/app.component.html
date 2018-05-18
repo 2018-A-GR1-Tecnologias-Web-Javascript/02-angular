@@ -3,9 +3,16 @@
   <div class="col-sm-6 text-center"
        *ngFor="let pelicula of arregloPeliculas">
 
-    <app-pelicula-banner>
+    <app-pelicula-banner
+      [descripcionPelicula]="pelicula.descripcion"
+      [nombrePelicula]="pelicula.nombre"
+      [esEstreno]="pelicula.esEstreno"
+      [urlImagen]="pelicula.urlImagen"
+    >
 
     </app-pelicula-banner>
+
+    <button (click)="pelicula.esEstreno = !pelicula.esEstreno"> Cambiar es estreno</button>
 
 
   </div>
