@@ -8,11 +8,12 @@
       [nombrePelicula]="pelicula.nombre"
       [esEstreno]="pelicula.esEstreno"
       [urlImagen]="pelicula.urlImagen"
+      (dioClickEnEstado)="alertar()"
     >
 
     </app-pelicula-banner>
 
-    <button (click)="pelicula.esEstreno = !pelicula.esEstreno"> Cambiar es estreno</button>
+    <button (click)="pelicula.nombre = 'Adrian'"> Cambiar es estreno</button>
 
 
   </div>

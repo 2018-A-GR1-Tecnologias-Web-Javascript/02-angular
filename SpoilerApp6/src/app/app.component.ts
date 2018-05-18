@@ -24,7 +24,12 @@ export class AppComponent {
       esEstreno: false,
       urlImagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFQprASMSiRnRHYgQl5sHoGr8GiMI9IB2XVIQP_tmD61KFgUY'
     },
-  ]
+  ];
+
+
+  alertar(){
+    alert('DIO CLICK EN ES ESTRENO!!!!!!!!!');
+  }
 
 
   // nombre = 'Adrian';
