@@ -8,47 +8,7 @@ import {Component} from '@angular/core';
 
 export class AppComponent {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  mostrarHola = true;
 
 
   // nombre = 'Adrian';

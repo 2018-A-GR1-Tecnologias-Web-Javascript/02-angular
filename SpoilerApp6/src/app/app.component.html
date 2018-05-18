@@ -1,12 +1,26 @@
 <div class="row">
-  <div class="col-sm-4"></div>
-  <div class="col-sm-4">
-    <app-grilla></app-grilla>
+  <div class="col-sm-6">
+    <h1 *ngFor="mostrarHola"> Hola </h1>
   </div>
-  <div class="col-sm-4"></div>
+  <div class="col-sm-6">
+    <h1 *ngFor="!mostrarHola"> Mundo </h1>
+  </div>
+
+  <div class="col-sm-3"></div>
+  <div class="col-sm-3"></div>
+  <div class="col-sm-3"></div>
+  <div class="col-sm-3"></div>
+
 </div>
 
 
+<!--<div class="row">-->
+<!--<div class="col-sm-4"></div>-->
+<!--<div class="col-sm-4">-->
+<!--<app-grilla></app-grilla>-->
+<!--</div>-->
+<!--<div class="col-sm-4"></div>-->
+<!--</div>-->
 
 
 <!--
@@ -17,89 +31,43 @@
 -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--<h2 [class]="clase">Two way data binding</h2>-->
 <!--<ul>-->
-  <!--<li> clase <-> template [(ngModel)]</li>-->
+<!--<li> clase <-> template [(ngModel)]</li>-->
 <!--</ul>-->
 <!--<p>Clase: {{clase}}</p>-->
 <!--<input type="text"-->
-       <!--id="clase"-->
-       <!--name="clase"-->
-       <!--[(ngModel)]="clase"-->
+<!--id="clase"-->
+<!--name="clase"-->
+<!--[(ngModel)]="clase"-->
 <!--&gt;-->
 
 <!--<h2>One way data binding</h2>-->
 <!--<ul>-->
-  <!--<li>Clase al template -> [class]</li>-->
-  <!--<li>Template a la clase -> (click)</li>-->
+<!--<li>Clase al template -> [class]</li>-->
+<!--<li>Template a la clase -> (click)</li>-->
 <!--</ul>-->
 
 <!--<div [hidden]="false">-->
-  <!--<h1 [id]="nombreClase"-->
-      <!--[class]="nombreClase"-->
-  <!--&gt;Hola amigos</h1>-->
-  <!--<input type="text" #textoInput >-->
-  <!--<div>-->
-    <!--<p>Nombre: {{nombre}}</p>-->
-    <!--<p>Apellido: {{apellido}}</p>-->
-    <!--<p>Edad: {{edad}}</p>-->
-    <!--<p>Sueldo: {{sueldo | currency}}</p>-->
-    <!--<p>Fecha nacimiento: {{fechaNacimiento | date:'yyyy/MM/dd'}}</p>-->
+<!--<h1 [id]="nombreClase"-->
+<!--[class]="nombreClase"-->
+<!--&gt;Hola amigos</h1>-->
+<!--<input type="text" #textoInput >-->
+<!--<div>-->
+<!--<p>Nombre: {{nombre}}</p>-->
+<!--<p>Apellido: {{apellido}}</p>-->
+<!--<p>Edad: {{edad}}</p>-->
+<!--<p>Sueldo: {{sueldo | currency}}</p>-->
+<!--<p>Fecha nacimiento: {{fechaNacimiento | date:'yyyy/MM/dd'}}</p>-->
 
-    <!--<button (blur)="cambiarClaseDeTitulo()"-->
-            <!--(click)="cambiarClaseDeTitulo()">-->
-      <!--{{nombreBoton}}-->
-    <!--</button>-->
-  <!--</div>-->
-  <!--<button (click)="aplicarClase(textoInput.value)">-->
-    <!--Aplicar clase-->
-  <!--</button>-->
+<!--<button (blur)="cambiarClaseDeTitulo()"-->
+<!--(click)="cambiarClaseDeTitulo()">-->
+<!--{{nombreBoton}}-->
+<!--</button>-->
+<!--</div>-->
+<!--<button (click)="aplicarClase(textoInput.value)">-->
+<!--Aplicar clase-->
+<!--</button>-->
 <!--</div>-->
 
 
