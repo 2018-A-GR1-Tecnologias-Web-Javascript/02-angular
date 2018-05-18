@@ -27,7 +27,8 @@ export class AppComponent {
   ];
 
 
-  alertar(){
+  alertar(evento) {
+    console.log('Evento: ', evento); // true
     alert('DIO CLICK EN ES ESTRENO!!!!!!!!!');
   }
 
