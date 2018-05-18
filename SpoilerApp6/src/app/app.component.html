@@ -3,12 +3,9 @@
   <div class="col-sm-6 text-center"
        *ngFor="let pelicula of arregloPeliculas">
 
-    <img [src]="pelicula.urlImagen"
-         [alt]="pelicula.descripcion">
-    <h1>{{pelicula.nombre}} / {{pelicula.esEstreno}}</h1>
-    <p>{{pelicula.descripcion}}</p>
+    <app-pelicula-banner>
 
-    <app-pelicula-banner></app-pelicula-banner>
+    </app-pelicula-banner>
 
 
   </div>
