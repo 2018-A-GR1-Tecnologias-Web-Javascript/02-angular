@@ -8,7 +8,9 @@
   <div class="sa-espaciado"></div>
 
 
-  <p [class]="'sa-fondo-estado ' + claseEstreno">{{textoEstreno}}</p>
+  <p
+    (click)="hizoClickEnEstado()"
+    [class]="'sa-fondo-estado ' + claseEstreno">{{textoEstreno}}</p>
 
 
   <h1>{{nombrePelicula}}</h1>
